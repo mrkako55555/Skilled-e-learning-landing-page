@@ -1,0 +1,1010 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 1440px;
+    height: 1845px;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+.dark-logo img {
+    position: absolute;
+    margin: 38.75px 165.79px;
+}
+
+.btn1 {
+    position: absolute;
+    background: #13183F;
+    border-radius: 28px;
+    width: 167px;
+    height: 56px;
+    border: none;
+    margin: 24px 1108px;   
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background: #666CA3;
+}
+
+.txts h1 {
+    position: absolute;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+    color: #13183F;
+    margin: 252px 165px;
+    width: 457px;
+    
+}
+
+.txts p {
+    position: absolute;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    width: 445px;
+    margin: 424px 165px;
+    color: #83869A;
+}
+
+.btn2 {
+    margin: 548px 165px;
+    position: absolute;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    border: none;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 167px;
+    height: 63px;
+    cursor: pointer;
+    transition: 0.7s;
+    
+}
+
+.btn2:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.tablet, .mobile {
+    display: none;
+}
+
+.desktop {
+    position: absolute;
+    margin-left: 730px;
+    margin-top: -154px;
+}
+
+.cards {
+    position: absolute;
+    width: 1440px;
+    height: 888px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    margin-top: 837px;
+    display: flex;
+}
+
+.first {
+    position: absolute;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 15px;
+    width: 350px;
+    height: 322px;
+    margin: 24px 165px;
+    
+}
+
+
+.first h1 {
+    position: absolute;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    width: 286px;
+    margin: 64px 32px;
+    color: #FFFFFF;
+}
+
+.animation {
+    position: absolute;
+    width: 350px;
+    height: 322px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+    margin: 24px 545px;
+}
+
+.animation img {
+    position: absolute;
+    margin: -24px 32px;
+}
+
+.animation h1 {
+    position: absolute;
+    margin: 64px 32px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #13183F;
+}
+
+.animation p {
+    position: absolute;
+    margin: 118px 32px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+}
+
+.animation h2 {
+    position: absolute;
+    margin: 254px 32px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+}
+
+.design {
+    position: absolute;
+    width: 350px;
+    height: 322px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+    margin: 24px 925px;
+}
+
+.design img {
+    position: absolute;
+    margin: -24px 32px;
+}
+
+
+.design h1 {
+    margin: 64px 32px;
+    position: absolute;
+    color: #13183F;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.design p {
+    width: 286px;
+    position: absolute;
+    margin: 118px 32px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+}
+
+.design h2 {
+    position: absolute;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 254px 32px;
+    color: #F74780;
+}
+
+.photo {
+    position: absolute;
+    width: 350px;
+    height: 322px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+    margin: 426px 165px;
+}
+
+
+.photo img {
+    margin: -24px 32px;
+    position: absolute;
+}
+
+
+.photo h1 {
+    margin: 64px 32px;
+    position: absolute;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #13183F;
+}
+
+.photo p {
+    width: 286px;
+    position: absolute;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    margin: 118px 32px;
+}
+
+.photo h2 {
+    margin: 254px 32px;
+    position: absolute;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+}
+
+.crypto {
+    position: absolute;
+    width: 350px;
+    height: 322px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+    margin: 426px 545px;
+}
+
+.crypto img {
+    margin: -24px 32px;
+    position: absolute;
+}
+
+.crypto h1 {
+    margin: 64px 32px;
+    position: absolute;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #13183F;
+}
+
+.crypto p {
+    position: absolute;
+    margin: 118px 32px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    width: 286px;
+}
+
+.crypto h2 {
+    margin: 254px 32px;
+    position: absolute;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+}
+
+.business {
+    position: absolute;
+    width: 350px;
+    height: 322px;
+    margin: 426px 925px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+}
+
+.business img {
+    position: absolute;
+    margin: -24px 32px;
+}
+
+
+.business h1 {
+
+    position: absolute;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #13183F;
+    margin: 64px 32px;
+}
+
+.business p {
+    position: absolute;
+    margin: 118px 32px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    width: 286px;
+}
+
+.business h2 {
+    margin: 254px 32px;
+    position: absolute;
+    color: #F74780;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 120px;
+    background: #13183F;
+    margin-top: 1725px;
+}
+
+.footer img {
+    position: absolute;
+    margin: 46.75px 165.79px;
+
+}
+
+.btn3 {
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px;
+    position: absolute;
+    width: 167px;
+    height: 56px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 32px 1108px;
+    border: none;
+    transition: 0.7s;
+    cursor: pointer;
+    
+}
+
+.btn3:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
+@media all and (max-width: 768px) {
+    .container {
+        position: relative;
+        width: 768px;
+        height: 1760px;
+    }
+    .dark-logo img {
+        position: absolute;
+        height: 35px;
+        width: 89px;
+        margin: 31px 39px;
+    }
+    .btn1 {
+        width: 140px;
+        height: 48px;
+        margin: 24px 588px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        
+    }
+
+    .txts h1 {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+        margin: 171px 39px;
+        width: 326px;
+    }
+
+    .txts p {
+        margin: 297px 39px;
+        width: 398px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        
+    }
+
+    .btn2 {
+        width: 167px;
+        height: 56px;
+        margin: 399px 39px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .desktop, .mobile {
+        display: none;
+    }
+
+    .tablet {
+        position: absolute;
+        display: block;
+        margin-left: 370px;
+        margin-top: -95px;
+    }
+
+    .cards {
+        position: absolute;
+        width: 768px;
+        height: 999px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+        margin-top: 641px;
+    }
+    
+    .first {
+        position: absolute;
+        margin: 24px 39px;
+        width: 339px;
+        height: 259px;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 10px;
+    }
+
+    .first h1 { 
+        position: absolute;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+
+    }
+
+    .animation {
+        position: absolute;
+        width: 340px;
+        height: 259px;
+        background: #FFFFFF;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+        border-radius: 10px;
+        margin: 24px 388px;
+    }
+
+    .animation h1 {
+        position: absolute;
+        margin: 56px 32px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .animation p {
+        position: absolute;
+        margin: 97px 32px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        width: 286px;
+    }
+
+    .animation h2 {
+        position: absolute;
+        margin: 199px 32px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .crypto {
+        position: absolute;
+        margin: 654px 39px;
+        width: 339px;
+        height: 259px;
+        background: #FFFFFF;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+        border-radius: 10px;
+    }
+
+    .crypto h1 {
+        position: absolute;
+        margin: 56px 32px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .crypto p {
+        position: absolute;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        width: 286px;
+        margin: 97px 32px;
+    }
+
+
+
+    .crypto h2 {
+        position: absolute;
+        margin: 199px 32px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .photo {
+
+        width: 339px;
+        height: 259px;
+        position: absolute;
+        background: #FFFFFF;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+        border-radius: 10px;
+        margin: 339px 389px;
+    }
+
+
+    .photo h1 {
+        position: absolute;
+        margin: 56px 32px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+
+    }
+
+
+    .photo p {
+        position: absolute;
+        width: 286px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 97px 32px;
+    }
+
+    .photo h2 {
+        position: absolute;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        margin: 199px 32px;
+    }
+
+
+    .business {
+        width: 339px;
+        height: 259px;
+        position: absolute;
+        background: #FFFFFF;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+        border-radius: 10px;
+        margin: 654px 389px;
+    }
+
+    .business h1 {
+        margin: 56px 32px;
+        position: absolute;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .business p {
+        position: absolute;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 97px 32px;
+    }
+
+    .business h2 {
+        margin: 199px 32px;
+        position: absolute;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+    .design {
+
+        width: 339px;
+        height: 259px;
+        position: absolute;
+        background: #FFFFFF;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+        border-radius: 10px;
+        margin: 339px 39px;
+        background: #FFFFFF;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+        border-radius: 10px;
+    }
+
+    .design h1 {
+        position: absolute;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+        margin: 56px 32px;
+    }
+
+
+    .design p {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        position: absolute;
+        margin: 97px 32px;
+        width: 286px;
+    }
+
+    .design h2 {
+        margin: 199px 32px;
+        position: absolute;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+
+    }
+
+    .footer {
+        margin-top: 1639px;
+        position: absolute;
+        width: 768px;
+        height: 120px;
+    }
+
+
+    .footer img {
+        width: 89px;
+        height: 35px;
+        position: absolute;
+        margin: 43px 40px;
+    }
+
+    .btn3 {
+        margin: 36px 589px;
+        width: 140px;
+        height: 48px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+    }
+   
+}
+
+
+
+@media all and (max-width: 375px) {
+    .container {
+        position: relative;
+        width: 375px;
+        height: 2615px;
+        background: #FFFFFF;
+    }
+
+    .dark-logo img {
+        margin: 22px 16px;
+        position: absolute;
+    }
+
+    .btn1 {
+        margin: 16px 219px;
+        position: absolute;
+    }
+
+    .txts h1 {
+        margin: 102px 16px;
+        width: 343px;
+        position: absolute;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .txts p {
+        position: absolute;
+        width: 343px;
+        margin: 229px 16px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .btn2 {
+        margin: 331px 16px;
+        position: absolute;
+    }
+
+    .desktop, .tablet {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        position: absolute;
+        width: 327px;
+        height: 301px;
+        margin: 457px 24px;
+    }
+
+    .cards {
+        position: absolute;
+        width: 375px;
+        height: 1695px;
+        margin-top: 800px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    }
+
+    .first {
+        position: absolute;
+        width: 343px;
+        height: 120px;
+        margin: 0px 16px;
+    }
+
+    .first h1 {
+        position: absolute;
+        width: 286px;
+        margin: 24px 28px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .footer {
+        position: absolute;
+        width: 375px;
+        height: 120px;
+        margin-top: 2495px;
+    }
+
+
+    .footer img {
+        margin: 43px 16px;
+        position: absolute;
+        width: 89px;
+        height: 35px;
+
+    }
+
+
+    .btn3 {
+        margin: 36px 219px;
+        position: absolute;
+    }
+
+
+    .crypto {
+        position: absolute;
+        margin: 1057px 16px;
+        width: 343px;
+        height: 259px;
+    }
+
+    .crypto img {
+        margin-left: 28px;
+        position: absolute;
+    }
+
+
+
+    .crypto h1 {
+        position: absolute;
+        margin-left: 28px;
+    }
+
+    .crypto p {
+        position: absolute;
+        margin-left: 28px;
+    }
+
+    .crypto h2 {
+        position: absolute;
+        margin-left: 28px;
+    }
+
+    .design {
+        margin-left: 16px;
+        position: absolute;
+        margin-top: 459px;
+    }
+
+
+    .design img {
+        margin-left: 28px;
+        position: absolute;
+    }
+
+
+
+
+    .design h1 {
+        position: absolute;
+        margin-left: 28px;
+    }
+
+    .design p {
+        position: absolute;
+        margin-left: 28px;
+    }
+
+    .design h2 {
+        position: absolute;
+        margin-left: 28px;
+    }
+
+    .animation {
+
+        position: absolute;
+        margin: 160px 16px;
+        width: 343px;
+        height: 259px;
+    }
+
+
+    .animation img {
+        position: absolute;
+        margin-left: 28px;
+    }
+
+    .animation h1 {
+        position: absolute;
+        margin-left: 28px;
+    }
+
+    .animation p {
+        position: absolute;
+        margin-left: 28px;
+    }
+
+    .animation h2 {
+        position: absolute;
+        margin-left: 28px;
+    }
+
+
+    .photo {
+        position: absolute;
+        margin-left: 16px;
+        width: 343px;
+        height: 259px;
+        margin-top: 758px;
+
+    }
+
+    .photo img {
+        position: absolute;
+        margin-left: 28px;
+    }
+
+    .photo h1 {
+        position: absolute;
+        margin-left: 28px;
+    }
+
+    .photo p {
+        position: absolute;
+        margin-left: 28px;
+    }
+
+    .photo h2 {
+        position: absolute;
+        margin-left: 28px;
+    }
+
+    .business {
+        position: absolute;
+        width: 343px;
+        height: 259px;
+        margin-left: 16px;
+        margin-top: 1356px;
+    }
+
+    .business img {
+        margin-left: 28px;
+    }
+
+    .business h1 {
+        position: absolute;
+        margin-left: 28px;
+    }
+
+    .business p {
+        position: absolute;
+        margin-left: 28px;
+    }
+
+    .business h2 {
+        position: absolute;
+        margin-left: 28px;
+    }
+}
